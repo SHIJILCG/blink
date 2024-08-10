@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+header {
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
+header div{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+.start-button-div,.stop-button-div{
+    align-items: center;
+    align-content: center;
+}
+.start-button-div span,.stop-button-div span{
+      padding: 30px;
+      max-height: 100%;
+      background-color: aqua;
+     
+}
+.numberofline-div,.delay-div{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.numberofline-div input,.delay-div input{
+    max-width: 100px;
+    height: 40px;
+    border: 1px solid black;
+}
+main{
+    width: 100%;
+}
