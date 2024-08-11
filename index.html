@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="project.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="project.css" />
     <title>Document</title>
-</head>
-<body>
-      <header>
-         <div class="start-button-div"><span>START</span></div>
-         <div class="stop-button-div"><span>STOP</span></div> 
-         <div class="numberofline-div">
-            <span>ENTER NUMBER OF LINE</span>
-            <input type="text">
-        </div>
-         <div class="delay-div">
-            <span>ENTER NUMBER TIME</span>
-            <input type="text">
-        </div>
-      </header>
-      <main>
-          <div class="resultentspace"></div>
-      </main>
-</body>
+  </head>
+  <body>
+    <header>
+      <div class="start-button-div">
+        <span onclick="starttheflow()">START</span>
+      </div>
+      <div class="stop-button-div">
+        <span onclick="stoptheflow()">STOP</span>
+      </div>
+      <div class="numberofline-div">
+        <span>ENTER NUMBER OF LINE</span>
+        <input type="text" onchange="chandedtheline(event)" />
+      </div>
+      <div class="delay-div">
+        <span>ENTER NUMBER TIME</span>
+        <input type="text" onchange="chandedthetime(event)" />
+      </div>
+    </header>
+    <main>
+      <div class="resultentspace"></div>
+    </main>
+    <script src="profect.js"></script>
+  </body>
 </html>
+
