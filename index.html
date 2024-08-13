@@ -9,18 +9,18 @@
   <body>
     <header>
       <div class="start-button-div">
-        <span onclick="starttheflow()">START</span>
+        <span onclick="starttheflow()" id="start-butt">START</span>
       </div>
       <div class="stop-button-div">
-        <span onclick="stoptheflow()">STOP</span>
+        <span onclick="stoptheflow()" id="stop-butt">STOP</span>
       </div>
       <div class="numberofline-div">
-        <span>ENTER NUMBER OF LINE</span>
-        <input type="text" onchange="chandedtheline(event)" />
+        <span>ENTER NUMBER OF ROW</span>
+        <input type="text" onchange="chandedtheline(event)"  placeholder="1" />
       </div>
       <div class="delay-div">
-        <span>ENTER NUMBER TIME</span>
-        <input type="text" onchange="chandedthetime(event)" />
+        <span>ENTER THE DELAY TIME(milliseconds)</span>
+        <input type="text" onchange="chandedthetime(event)" placeholder="1000"/>
       </div>
     </header>
     <main>

@@ -5,6 +5,7 @@
 }
 body{
     background-color: antiquewhite;
+    min-width: 1108px;
 }
 header {
     width: 100%;
@@ -23,11 +24,14 @@ header div{
     align-items: center;
     align-content: center;
 }
-.start-button-div span,.stop-button-div span{
+#start-butt,.stop-button-div span{
       padding: 30px;
       max-height: 100%;
       background-color: aqua;
-     
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.3s;
+
 }
 .numberofline-div,.delay-div{
     align-items: center;
@@ -72,4 +76,5 @@ main{
 }
 .active{
     background-color: red;
+    border: 1 solid red;
 }
