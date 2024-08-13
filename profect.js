@@ -7,7 +7,7 @@ let flag2=0
 function starttheflow() {
   flag = 1;
   if(delytime!=0 && value!=0 && flag2===0){ 
-     let flag2=1;
+     flag2=1;
      let items=document.getElementsByClassName('maincontent');
      let index = 0;
     if (items.length === 0) return; 
@@ -48,6 +48,7 @@ function makeblink(item){
 
 
 function stoptheflow() {
+  flag2=0;
   let items=document.getElementsByClassName('maincontent');
   if(delytime!=0 && value!=0){ 
     if(items.length===1){
