@@ -3,8 +3,11 @@ let value =0;
 let intervalId;
 let intervalId2;
 let flag=0;
+let flag2=0
 function starttheflow() {
   flag = 1;
+  clearInterval(intervalId);
+  clearInterval(intervalId2);
   if(delytime!=0 && value!=0){ 
    let items=document.getElementsByClassName('maincontent');
   let index = 0;
