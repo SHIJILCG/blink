@@ -6,12 +6,11 @@ let flag=0;
 let flag2=0
 function starttheflow() {
   flag = 1;
-  clearInterval(intervalId);
-  clearInterval(intervalId2);
-  if(delytime!=0 && value!=0){ 
-   let items=document.getElementsByClassName('maincontent');
-  let index = 0;
-      if (items.length === 0) return; 
+  if(delytime!=0 && value!=0 && flag2===0){ 
+     let flag2=1;
+     let items=document.getElementsByClassName('maincontent');
+     let index = 0;
+    if (items.length === 0) return; 
     if(items.length === 1){
       let div=document.getElementById('circular')
       intervalId2 = setInterval(() => {
