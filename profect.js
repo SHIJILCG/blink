@@ -44,8 +44,8 @@ else{
  
 function makeblink(item){
 
-     let children=item.children;
-     for(let child of children){
+     let childrens=item.children;
+     for(let child of childrens){
         child.style.background='red';
      }
 }
