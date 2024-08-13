@@ -74,7 +74,6 @@ function chandedtheline(event) {
   let k=1;
   flag2=0;
   if(flag4===1){
-    console.log("this code is running");
     stoptheflow()
     let innercontent= document.getElementsByClassName('resultentspace')[0];
    innercontent.innerHTML='';
