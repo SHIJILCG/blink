@@ -84,7 +84,7 @@ function chandedtheline(event) {
      }
 }
 function chandedthetime(event) {
-   if(flag3===0){
+   if(flag3 == 0){
     clearInterval(intervalId);
     clearInterval(intervalId2);
     delytime=event.target.value;
