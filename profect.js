@@ -83,11 +83,14 @@ function chandedtheline(event) {
      }
 }
 function chandedthetime(event) {
-   if(flag2===0){
+  //  if(flag2===0){
+    clearInterval(intervalId);
+    clearInterval(intervalId2);
     delytime=event.target.value;
-   }else{
-      console.log("Please click stop before change time");
-   }
+    starttheflow();
+  //  }else{
+  //     console.log("Please click stop before change time");
+  //  }
   
 }
 
