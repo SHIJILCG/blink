@@ -23,7 +23,7 @@ function starttheflow() {
     if (items.length === 0) return; 
 
     if (items.length === 1) {
-      let div = items[0].getElementsByClassName('circular')[0];
+      let div = getElementById('circular');
       if (div) {
         intervalId2 = setInterval(() => {
           div.style.backgroundColor = (div.style.backgroundColor === 'red' || div.style.backgroundColor === '') ? 'white' : 'red';
