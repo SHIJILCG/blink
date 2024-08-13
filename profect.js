@@ -83,7 +83,11 @@ function chandedtheline(event) {
      }
 }
 function chandedthetime(event) {
-
-  delytime=event.target.value;
+   if(flag2===0){
+    delytime=event.target.value;
+   }else{
+      console.log("Please click stop before change time");
+   }
+  
 }
 
